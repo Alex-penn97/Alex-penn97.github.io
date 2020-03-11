@@ -1,0 +1,83 @@
+.contact {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 885px) {
+  .contact {
+    margin-top: 190px;
+    margin-bottom: 50px;
+  }
+}
+
+.contact .contact-container h1 {
+  color: #FEE06D;
+  font-family: "Bungee";
+  font-size: 20px;
+}
+
+.contact .contact-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+}
+
+@media (max-width: 600px) {
+  .contact .contact-container form {
+    width: 80vw;
+  }
+}
+
+.contact .contact-container form label {
+  color: #67F6BF;
+  font-family: "Bungee";
+  padding-bottom: 7px;
+  padding-top: 25px;
+  font-size: 15px;
+}
+
+.contact .contact-container form input.plain, .contact .contact-container form textarea.plain {
+  font-family: "Overpass";
+  font-size: 15px;
+  background-color: #212121;
+  border: 2px solid #FEE06D;
+  padding: 5px 10px;
+}
+
+.contact .contact-container form input.submit {
+  background-color: #212121;
+  border: 2px solid #FEE06D;
+  padding: 5px 10px;
+  color: #BA5DF4;
+  font-size: 15px;
+  font-family: "Bungee";
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.contact .contact-container form input.submit:hover {
+  background-color: #fee06d;
+}
+
+.contact .contact-container form .submit-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 25px;
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,107 @@
+.portfolio-page {
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 125px;
+}
+
+@media (max-width: 800px) {
+  .portfolio-page {
+    margin-top: 170px;
+  }
+}
+
+.portfolio-page .arrow-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.portfolio-page .arrow-buttons img {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.portfolio-page .project-about {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.portfolio-page .project-about h1 {
+  font-size: 20px;
+  color: #FEE06D;
+  font-family: "Bungee";
+  margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .portfolio-page .project-about h1 {
+    font-size: 15px;
+  }
+}
+
+.portfolio-page .project-about p {
+  color: white;
+  font-family: "Overpass";
+  max-width: 550px;
+  line-height: 1.7em;
+  font-size: 15px;
+  margin-bottom: 50px;
+  font-weight: 200;
+}
+
+@media (max-width: 700px) {
+  .portfolio-page .project-about p {
+    font-size: 12px;
+  }
+}
+
+.portfolio-page .columns-yes {
+  -webkit-columns: 2;
+          columns: 2;
+  margin: 0 auto;
+  width: 60vw;
+}
+
+.portfolio-page .project-photos {
+  margin: 0 auto;
+  width: 60vw;
+}
+
+.portfolio-page .project-photos img {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 100%;
+  border: 2px solid #FEE06D;
+}
+
+.portfolio-page .videos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 61vw;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.portfolio-page .videos video {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.portfolio-page iframe {
+  width: 61vw;
+  height: 500px;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=portfolio-single.css.map */

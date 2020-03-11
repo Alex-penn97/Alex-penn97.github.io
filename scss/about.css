@@ -1,0 +1,124 @@
+.about {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 885px) {
+  .about {
+    margin-top: 190px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.about .about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 100px;
+  margin-top: 50px;
+  height: auto;
+}
+
+@media (max-width: 877px) {
+  .about .about-container {
+    margin-top: 0px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about .about-container {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}
+
+.about .about-container .text h2 {
+  color: #FEE06D;
+  font-family: "Bungee";
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.about .about-container .text p {
+  color: white;
+  font-family: "Overpass";
+  width: 500px;
+  line-height: 1.2em;
+  font-size: 18px;
+}
+
+@media (max-width: 1000px) {
+  .about .about-container .text p {
+    font-size: 15px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 770px) {
+  .about .about-container .text p {
+    width: 100%;
+  }
+}
+
+.about img {
+  display: block;
+  width: auto;
+  max-height: 500px;
+  border: 2px solid #FEE06D;
+}
+
+@media (max-width: 600px) {
+  .about img {
+    height: 500px;
+  }
+}
+
+@media (max-width: 350px) {
+  .about img {
+    height: 450px;
+  }
+}
+
+.about .socials {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.about .socials img {
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px 0px 0px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.about .socials img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=about.css.map */

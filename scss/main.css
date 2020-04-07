@@ -179,30 +179,63 @@ body main .header .nav .nav-buttons a:hover, body main .header .nav .nav-buttons
 }
 
 body main .portfolio-content {
-  -webkit-columns: 3;
-          columns: 3;
   margin: 0 auto;
   margin-top: 150px;
   padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media (max-width: 865px) {
   body main .portfolio-content {
-    -webkit-columns: 2;
-            columns: 2;
     margin: 0 auto;
     margin-top: 190px;
   }
 }
 
-@media (max-width: 609px) {
-  body main .portfolio-content {
-    -webkit-columns: 1;
-            columns: 1;
-  }
+body main .portfolio-content .sectionHeaders {
+  color: #BA5DF4;
+  padding-left: 10px;
+  font-family: 'Overpass';
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+body main .portfolio-content ul .webProjects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .portfolio-content ul .webProjects .webWork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body main .portfolio-content ul .identityProjects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .portfolio-content ul .miscProjects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 body main .portfolio-content ul li {
+  margin: 10px 10px 20px 10px;
   margin-bottom: 20px;
   -webkit-transition: .5s;
   transition: .5s;
@@ -271,5 +304,35 @@ body main .portfolio-content ul li span {
   -webkit-transform: translateX(50%);
           transform: translateX(50%);
   font-family: "Overpass";
+}
+
+.plainFont, .detailedFont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 47.2%;
+}
+
+@media (max-width: 600px) {
+  .plainFont, .detailedFont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+}
+
+.plainFont img, .detailedFont img {
+  margin-right: 10% !important;
+  margin-bottom: 10% !important;
+}
+
+.inactive {
+  opacity: 0%;
 }
 /*# sourceMappingURL=main.css.map */

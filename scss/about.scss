@@ -91,4 +91,18 @@
         }
         
     }
+    .resume{
+        background-color: #212121;
+        border: 2px solid #FEE06D;
+                    padding: 5px 10px;
+                    color: #BA5DF4;
+                    font-size: 15px;
+                font-family: 'Bungee', ;
+                transition: .5s;
+                margin-top: 12px;
+
+                    &:hover{
+                        background-color: #fee06d;
+                    }
+    }
 }

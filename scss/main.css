@@ -245,8 +245,8 @@ body main .portfolio-content ul li {
 }
 
 body main .portfolio-content ul li img {
-  width: 250px;
-  height: 250px;
+  width: 500px;
+  height: 500px;
   -webkit-transition: .5s;
   transition: .5s;
   position: relative;
@@ -257,13 +257,6 @@ body main .portfolio-content ul li img {
   body main .portfolio-content ul li img img {
     width: 250px;
     height: 250px;
-  }
-}
-
-@media (max-width: 1300px) {
-  body main .portfolio-content ul li img img {
-    width: 500px;
-    height: 500px;
   }
 }
 

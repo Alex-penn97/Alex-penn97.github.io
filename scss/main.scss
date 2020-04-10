@@ -309,3 +309,10 @@ position: relative;
 .inactive{
     opacity: 0%;
 }
+
+.vertical-imgs{
+    columns: 2;    
+    img{
+        width: 90%;
+    }
+}

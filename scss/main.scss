@@ -3,25 +3,25 @@ body{
     height: 100vh;
     width: 100vw;
 position: relative;
-    .circles{
-        // position: absolute;
-        position: fixed;
-        // width: 10px;
-        // height: 10px;
-        bottom: 1%;
-        right: 1%;
-        @media (max-width:1075px) {
-        display: none;
-        }
-    }
-    .side-circles{
-        position: fixed;
-        left: 1%;
-        top: 20%;
-        @media (max-width:1075px) {
-            display: none;
-            }
-    }
+    // .circles{
+    //     // position: absolute;
+    //     position: fixed;
+    //     // width: 10px;
+    //     // height: 10px;
+    //     bottom: 1%;
+    //     right: 1%;
+    //     @media (max-width:1075px) {
+    //     display: none;
+    //     }
+    // }
+    // .side-circles{
+    //     position: fixed;
+    //     left: 1%;
+    //     top: 20%;
+    //     @media (max-width:1075px) {
+    //         display: none;
+    //         }
+    // }
     // overflow: hidden;
     //  .top-line{
     //         // position: absolute;

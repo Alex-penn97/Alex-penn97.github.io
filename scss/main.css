@@ -253,7 +253,7 @@ body main .portfolio-content ul li img {
   border: 2px solid #FEE06D;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   body main .portfolio-content ul li img {
     width: 250px;
     height: 250px;

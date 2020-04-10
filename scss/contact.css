@@ -54,6 +54,7 @@
   background-color: #212121;
   border: 2px solid #FEE06D;
   padding: 5px 10px;
+  color: white;
 }
 
 .contact .contact-container form input.submit {

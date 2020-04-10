@@ -253,6 +253,13 @@ body main .portfolio-content ul li img {
   border: 2px solid #FEE06D;
 }
 
+@media (min-width: 1300px) {
+  body main .portfolio-content ul li img img {
+    width: 500px;
+    height: 500px;
+  }
+}
+
 body main .portfolio-content ul li::before {
   position: absolute;
   content: "";

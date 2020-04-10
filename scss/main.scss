@@ -222,6 +222,13 @@ position: relative;
                         position: relative;
                    border: 2px solid #FEE06D;
 
+                   @media (min-width: 1300px){
+                       img{
+                           width: 500px;
+                           height: 500px;
+                       }
+                   }
+
 
                     }
                     // width:calc((100% - 90px) / 3);

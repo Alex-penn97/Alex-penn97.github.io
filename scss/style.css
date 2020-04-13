@@ -175,6 +175,22 @@ body {
           transform: scale(1.2);
 }
 
+.about .resume {
+  background-color: #212121;
+  border: 2px solid #FEE06D;
+  padding: 5px 10px;
+  color: #BA5DF4;
+  font-size: 15px;
+  font-family: "Bungee";
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin-top: 12px;
+}
+
+.about .resume:hover {
+  background-color: #fee06d;
+}
+
 .contact {
   width: 80vw;
   margin: 0 auto;
@@ -231,6 +247,7 @@ body {
   background-color: #212121;
   border: 2px solid #FEE06D;
   padding: 5px 10px;
+  color: white;
 }
 
 .contact .contact-container form input.submit {
@@ -265,30 +282,6 @@ body {
   position: relative;
 }
 
-body .circles {
-  position: fixed;
-  bottom: 1%;
-  right: 1%;
-}
-
-@media (max-width: 1075px) {
-  body .circles {
-    display: none;
-  }
-}
-
-body .side-circles {
-  position: fixed;
-  left: 1%;
-  top: 20%;
-}
-
-@media (max-width: 1075px) {
-  body .side-circles {
-    display: none;
-  }
-}
-
 body main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -308,6 +301,13 @@ body main .header {
   width: 90vw;
   padding-bottom: 20px;
   padding-top: 20px;
+}
+
+@media (max-width: 700px) {
+  body main .header {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
 
 body main .header .nav {
@@ -505,12 +505,19 @@ body main .portfolio-content ul li {
 }
 
 body main .portfolio-content ul li img {
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   -webkit-transition: .5s;
   transition: .5s;
   position: relative;
   border: 2px solid #FEE06D;
+}
+
+@media (max-width: 1600px) {
+  body main .portfolio-content ul li img {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 body main .portfolio-content ul li::before {

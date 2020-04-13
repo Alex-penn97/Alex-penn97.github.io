@@ -70,6 +70,13 @@ position: relative;
             width: 90vw;
             padding-bottom: 20px;
             padding-top: 20px;
+
+            @media (max-width:700px){
+                padding-right: 20px;
+                padding-left: 20px;
+                margin: 0 auto;
+                // width: 80vw;
+            }
                  
                 
                 
@@ -151,6 +158,7 @@ position: relative;
                         
                         @media (max-width:700px){
                             margin-bottom: 5px;
+                            font-size: 20px;
                             // margin-right: 20%;
                         }
                     }
@@ -172,6 +180,7 @@ position: relative;
             //    columns: 2;
                margin: 0 auto;
                margin-top: 190px;
+            //    width: 90vw;
                
                
            }
@@ -195,18 +204,28 @@ position: relative;
                .webProjects{
                    display: flex;
                    flex-direction: column;
+
                    
                    .webWork{
                     display: flex;
                     flex-direction: row;
+                    @media (max-width:700px) {
+                        flex-direction: column;
+                    }
                    }
                    
                }
                .identityProjects{
                 display: flex;
+                @media (max-width:700px) {
+                    flex-direction: column;
+                }
                }
                .miscProjects{
                    display: flex;
+                   @media (max-width:700px) {
+                    flex-direction: column;
+                }
                }
                li{
                    margin: 10px 10px 20px 10px;

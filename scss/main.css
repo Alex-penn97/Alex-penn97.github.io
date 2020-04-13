@@ -26,6 +26,14 @@ body main .header {
   padding-top: 20px;
 }
 
+@media (max-width: 700px) {
+  body main .header {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+  }
+}
+
 body main .header .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -151,6 +159,7 @@ body main .header .nav .nav-buttons a:hover, body main .header .nav .nav-buttons
 @media (max-width: 700px) {
   body main .header .nav .nav-buttons a {
     margin-bottom: 5px;
+    font-size: 20px;
   }
 }
 
@@ -198,16 +207,43 @@ body main .portfolio-content ul .webProjects .webWork {
           flex-direction: row;
 }
 
+@media (max-width: 700px) {
+  body main .portfolio-content ul .webProjects .webWork {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 body main .portfolio-content ul .identityProjects {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
+@media (max-width: 700px) {
+  body main .portfolio-content ul .identityProjects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 body main .portfolio-content ul .miscProjects {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (max-width: 700px) {
+  body main .portfolio-content ul .miscProjects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 body main .portfolio-content ul li {

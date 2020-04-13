@@ -93,9 +93,10 @@
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
   .about img {
-    height: 450px;
+    width: 80vw;
+    height: auto;
   }
 }
 
@@ -106,6 +107,12 @@
   display: flex;
   -webkit-transition: .5s;
   transition: .5s;
+}
+
+@media (max-width: 700px) {
+  .about .socials {
+    margin-bottom: 30px;
+  }
 }
 
 .about .socials img {

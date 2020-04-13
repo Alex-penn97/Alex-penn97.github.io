@@ -28,8 +28,6 @@ body main .header {
 
 @media (max-width: 700px) {
   body main .header {
-    padding-right: 20px;
-    padding-left: 20px;
     margin: 0 auto;
   }
 }
@@ -55,6 +53,9 @@ body main .header .nav {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 }
 
@@ -93,13 +94,15 @@ body main .header .nav .name h1 {
 
 @media (max-width: 880px) {
   body main .header .nav .name h1 {
-    font-size: 55px;
+    font-size: 40px;
   }
 }
 
 @media (max-width: 700px) {
   body main .header .nav .name h1 {
     font-size: 33px;
+    padding-right: 0px;
+    width: 10%;
   }
 }
 

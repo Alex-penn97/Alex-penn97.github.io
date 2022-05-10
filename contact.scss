@@ -1,0 +1,84 @@
+.contact{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 150px;
+
+    @media (max-width:885px) {
+        margin-top: 190px;
+        margin-bottom: 50px;
+    }
+    
+
+    display: flex;
+            justify-content: center;
+        .contact-container{
+            
+            
+            h1{
+                color: #FEE06D;
+                font-family: 'Bungee', ;
+                // padding-bottom: 15px;
+                font-size: 20px;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+            // justify-content: center;
+
+                width: 500px;
+                @media (max-width:600px) {
+                    width: 80vw
+                }
+                // @media (max-width:450px) {
+                //     width: 300px
+                // }
+                // @media (max-width:350px) {
+                //     width: 280px
+                // }
+                label{
+                    color: #67F6BF;
+                font-family: 'Bungee', ;
+                padding-bottom: 7px;
+                padding-top: 25px;
+                font-size: 15px;
+                }
+                input.plain, textarea.plain{
+                font-family: 'Overpass', ;
+                font-size: 15px;
+                background-color: #212121;
+                border: 2px solid #FEE06D;
+                padding: 5px 10px;
+                color: white;
+
+
+                }
+                input.submit{
+                    background-color: #212121;
+                    border: 2px solid #FEE06D;
+                    padding: 5px 10px;
+                    color: #BA5DF4;
+                    font-size: 15px;
+                font-family: 'Bungee', ;
+                transition: .5s;
+
+                    &:hover{
+                        background-color: #fee06d;
+                    }
+                
+
+
+                }
+                // textarea{
+                //     background-color: #212121;
+                //     border: 2px solid #FEE06D;
+                //     padding: 5px 10px;
+                // }
+                .submit-div{
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 25px;
+                }
+                
+            }
+        }
+}
